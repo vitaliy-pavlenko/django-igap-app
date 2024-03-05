@@ -1,0 +1,106 @@
+############## GLOB SYNTAX:
+syntax: glob
+
+#*******************************
+#   Generated files:
+#*******************************
+.ropeproject/**
+build/**
+dist
+doc/**
+e2e-temp/**
+*.egg-info/**
+i18n
+i18n.scheme.json
+app/src/templates.js
+app/tests/e2e/*.js
+app/**/e2e/**/*.js
+ui\.scheme\.validation\.schema\.json
+
+#****************************
+#   Editors/IDEs/dev files
+#****************************
+*.idea
+*.iml
+*.komodoproject
+*.project
+*.pydevproject
+*.sublime-project
+*.sublime-workspace
+*.swp
+nbproject
+*dev.html
+.DS_Store
+.envrc
+.vscode/
+launch.sh
+Pipfile
+Pipfile.lock
+.python-version
+
+#***************************
+#   Python aux files
+#***************************
+*.pyc
+.coverage
+*.sql.gz
+*.sql
+*.orig
+
+#********************************
+#   JavaScript minimized files
+#********************************
+*.min.css
+*.min.js
+config.env.js
+
+#********************************
+#   Temp & log files
+#********************************
+*.log
+*.sqlite3
+.cache/*
+.tscache/**
+.pytest_cache
+workflow/api/static/creatives/**
+
+########## REGEXP SYNTAX BELOW:
+syntax: regexp
+
+#********************************
+#   Aux API files
+#********************************
+.venv
+
+#********************************
+#   Aux UI files
+#********************************
+\/bower_components\/
+\/coverage\/
+^ext-ui\/build\/.sass-cache
+^ext-ui\/build\/temp
+\/node_modules\/
+\/node_modules
+node_modules
+\/typings\/
+\/ui\/core
+\/ui\/components
+\/ui\/app\/conf\/backend.json
+\/ui\/expert.json
+\/instrumented\/
+\/ui\/app\/index.html
+
+\/ui/compiled.meta.json
+
+*.rej
+
+.env
+
+#********************************
+# Local development files
+#********************************
+Dockerfile.full
+Makefile
+build-image.sh
+docker-compose-local.yml
+settings.env
