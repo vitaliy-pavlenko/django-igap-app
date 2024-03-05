@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'advertiser.apps.Config',
     'bidder.apps.Config',
     'interest_group.apps.Config',
-    'user.apps.Config',
     'rest_framework'
 ]
 
@@ -86,7 +85,6 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
     ),
-    'EXCEPTION_HANDLER': 'user.utils.custom_exception_handler',
 }
 
 WSGI_APPLICATION = 'interest_group_activation_platform.wsgi.application'
