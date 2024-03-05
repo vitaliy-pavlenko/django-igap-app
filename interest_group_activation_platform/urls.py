@@ -21,7 +21,6 @@ from rest_framework import routers
 import advertiser.views
 import bidder.views
 import interest_group.views
-import user.views
 
 router = routers.DefaultRouter()
 
