@@ -28,3 +28,6 @@ class InterestGroup(models.Model):
                 name='advertiser_availability_validation'
             )
         ]
+
+    def __str__(self):
+        return self.name
